@@ -1,0 +1,14 @@
+extends ./layout/index.pug 
+block compartircontenido
+    h1.text-center  #{pagina}
+    main.container.mt-5 
+        .row 
+            each habitacion in habitaciones 
+                .col-md.col-lg-4.mv-4 
+                    .card 
+                        img.card-img-top(src=`img/camas_4.jpg`)
+                        .card-body 
+                            h2=habitacion.nombre 
+                            p Piso: #{habitacion.piso}
+                            p Refrigerador: #{habitacion.refrigerador}
+                            <!--/*a(href='#' class='d-block btn btn-success btn-clock') Mas datos-->     

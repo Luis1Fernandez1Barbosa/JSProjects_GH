@@ -1,0 +1,31 @@
+.navegacion  {
+    background-image: url("/img/text_ama.jpg");
+    background-attachment: fixed;
+    background-color: #fffb00;
+    background-size: 100% 100%;
+}
+
+.general {
+    background-image: url("/img/manzanas.jpg");
+    background-size: 100% 50%;
+    background-repeat: repeat;
+    background-color: rgb(255, 255, 255, 40%);
+}
+
+.footer {
+    background-color: #f8e537;
+}
+
+header .nav a {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.lista-iconos {
+    background-color: rgb(252, 161, 134);
+    color: rgb(255, 0, 0);
+}
+.lista-iconos img {
+    height:250px;
+}

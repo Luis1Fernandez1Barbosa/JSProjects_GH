@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "stampit": "^4.3.2",
+    "stdio": "^2.1.1"
+  }
+}
