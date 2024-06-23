@@ -1,0 +1,15 @@
+extends ./layout/index.pug 
+block compartircontenido
+    main
+        .container-xl.p-5
+            h1.text-center  #{pagina}
+            .row
+                each comentario in comentarios
+                    .col-12
+                        div.w-75.mx-auto.my-3.border-bottom.border-dark
+                            p Correo: #{comentario.correo} 
+                            p Comentario: #{comentario.opinion} 
+                            p Imagen: #{comentario.imagen}
+                                img.d-block.m-auto.w-25.card-img-top(src=`img/${comentario.imagen}.png`) 
+                                button(type="Modificar") 
+                                button(type="Eliminar") 

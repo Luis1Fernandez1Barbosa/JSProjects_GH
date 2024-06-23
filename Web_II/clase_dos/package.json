@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "qunit": "^2.19.1",
+    "stampit": "^4.3.2"
+  }
+}

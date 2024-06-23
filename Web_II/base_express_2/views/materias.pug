@@ -1,0 +1,14 @@
+extends ./layout/index.pug 
+block compartircontenido 
+    h1 #{pagina}
+    main.conatiner.mt-5 
+        .row 
+            each materia in materias 
+                .col-md.col-lg-4.mv-4 
+                    .card 
+                        img.caqrd-img-top(src=`img/${materia.imagen}.png`)
+                        .card-body 
+                            h2=materia.nombre 
+                            p 
+                            | #{materia.descripcion} 
+                            a(href="#", class='d-block btn btn-sucess btn-clock') Mas datos

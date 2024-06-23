@@ -1,0 +1,17 @@
+extends ./layout/index.pug 
+block compartircontenido
+    h1.text-center.justify-content-center.justify-content-md-around  #{pagina}
+    main.container-xl.p-5
+        .row
+            each hotel in hoteles
+                .col-md.col-lg-4.mv-4 
+                    .card
+                        div.w-55.mx-auto.my-3.border-bottom.border-dark
+                            h2=hotel.nombre 
+                            p Direccion: #{hotel.direccion} 
+                            p Telefono: #{hotel.telefono}
+                            p Correo: #{hotel.correo}
+                            p Gerente: #{hotel.gerentes}
+                            p Habitacion: #{hotel.habitaciones}
+
+

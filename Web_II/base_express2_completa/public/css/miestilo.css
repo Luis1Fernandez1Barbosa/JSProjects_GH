@@ -1,0 +1,70 @@
+:root{
+    --fuenteUno: 'Playfair Display', serif;
+    --fuenteDos: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: var(--fuenteDos);
+}
+
+main{
+    background-color: #EFF1ED;
+}
+
+.navegacion {
+    background-color: #015291;
+}
+
+.navbar-nav a {
+    font-family: var(--fuenteUno);
+    font-size: 2rem;
+    color: #EFF1ED;
+    transition-property: color text-decoration;
+    transition-duration: .3s;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+    color: #BA981C;
+
+}
+
+/* estilos clase creadores.pug */
+.card{
+    border-radius: 1rem;
+    max-height: 35rem;
+    /* overflow: hidden; */
+}
+
+
+.tamano{
+    /* max-height: 25rem; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
+.lista-iconos img {
+    height: 100px;
+}
+
+.logoFes{
+    border-radius: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #aaa;
+}
+
+
+input, input::placeholder{    
+    font-size: 1.3rem;
+}
