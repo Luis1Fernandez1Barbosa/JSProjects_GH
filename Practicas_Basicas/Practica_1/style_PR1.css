@@ -1,5 +1,14 @@
 body{
-    background-color: aqua;
-    color: blueviolet;
+    background-color: burlywood;
+    color: beige;
 }
-    
+h1 {
+    color: brown;
+    text-decoration: bold;
+}
+
+p {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Times New Roman', sans-serif;
+}
